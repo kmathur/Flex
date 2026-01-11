@@ -50,6 +50,7 @@
     {{ article.content }}
     <hr>
   </div>
+  {% include "partial/disqus.html" %}
   <div class="tag-cloud">
     <p>
       {% if article.tags %}
